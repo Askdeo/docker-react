@@ -7,4 +7,4 @@ before_install:
 
 
 script:
-    - docker run frontend npm run test -- --coverage
+    - docker run CI=true frontend  npm run test -- --coverage
